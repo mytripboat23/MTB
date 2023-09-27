@@ -1,0 +1,149 @@
+[07-Aug-2023 07:15:37 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home4/itriloke/public_html/mytripboat/includes/classes/class_db_connect.php:25
+Stack trace:
+#0 /home4/itriloke/public_html/mytripboat/includes/classes/class_db_connect.php(25): mysqli_connect('localhost', 'itriloke_mtb_db...', Object(SensitiveParameterValue))
+#1 /home4/itriloke/public_html/mytripboat/includes/classes/class_db_connect.php(12): db_connect->connect('localhost', 'itriloke_mtb_db...', 'Secure@2023', 'itriloke_mtb_db...', false)
+#2 /home4/itriloke/public_html/mytripboat/includes/classes/class_paging.php(370): db_connect->db_connect()
+#3 /home4/itriloke/public_html/mytripboat/admin/show_members.php(113): pagingRecords->runQueryPaging('select ul.u_log...', NULL, Array)
+#4 {main}
+  thrown in /home4/itriloke/public_html/mytripboat/includes/classes/class_db_connect.php on line 25
+[12-Aug-2023 05:01:32 America/Boise] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($pieces) must be of type array, string given in /home4/itriloke/public_html/mytripboat/admin/edit_package.php:114
+Stack trace:
+#0 /home4/itriloke/public_html/mytripboat/admin/edit_package.php(114): implode(',', NULL)
+#1 {main}
+  thrown in /home4/itriloke/public_html/mytripboat/admin/edit_package.php on line 114
+[12-Aug-2023 05:01:39 America/Boise] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($pieces) must be of type array, string given in /home4/itriloke/public_html/mytripboat/admin/edit_package.php:114
+Stack trace:
+#0 /home4/itriloke/public_html/mytripboat/admin/edit_package.php(114): implode(',', NULL)
+#1 {main}
+  thrown in /home4/itriloke/public_html/mytripboat/admin/edit_package.php on line 114
+[12-Aug-2023 05:01:56 America/Boise] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($pieces) must be of type array, string given in /home4/itriloke/public_html/mytripboat/admin/edit_package.php:114
+Stack trace:
+#0 /home4/itriloke/public_html/mytripboat/admin/edit_package.php(114): implode(',', NULL)
+#1 {main}
+  thrown in /home4/itriloke/public_html/mytripboat/admin/edit_package.php on line 114
+[12-Aug-2023 05:03:04 America/Boise] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($pieces) must be of type array, string given in /home4/itriloke/public_html/mytripboat/admin/edit_package.php:114
+Stack trace:
+#0 /home4/itriloke/public_html/mytripboat/admin/edit_package.php(114): implode(',', NULL)
+#1 {main}
+  thrown in /home4/itriloke/public_html/mytripboat/admin/edit_package.php on line 114
+[12-Aug-2023 05:03:34 America/Boise] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($pieces) must be of type array, string given in /home4/itriloke/public_html/mytripboat/admin/edit_package.php:114
+Stack trace:
+#0 /home4/itriloke/public_html/mytripboat/admin/edit_package.php(114): implode(',', NULL)
+#1 {main}
+  thrown in /home4/itriloke/public_html/mytripboat/admin/edit_package.php on line 114
+[12-Aug-2023 05:03:38 America/Boise] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($pieces) must be of type array, string given in /home4/itriloke/public_html/mytripboat/admin/edit_package.php:114
+Stack trace:
+#0 /home4/itriloke/public_html/mytripboat/admin/edit_package.php(114): implode(',', NULL)
+#1 {main}
+  thrown in /home4/itriloke/public_html/mytripboat/admin/edit_package.php on line 114
+[23-Aug-2023 08:59:48 America/Boise] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($pieces) must be of type array, string given in /home4/itriloke/public_html/mytripboat/admin/edit_package.php:114
+Stack trace:
+#0 /home4/itriloke/public_html/mytripboat/admin/edit_package.php(114): implode(',', NULL)
+#1 {main}
+  thrown in /home4/itriloke/public_html/mytripboat/admin/edit_package.php on line 114
+[23-Aug-2023 08:59:53 America/Boise] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($pieces) must be of type array, string given in /home4/itriloke/public_html/mytripboat/admin/edit_package.php:114
+Stack trace:
+#0 /home4/itriloke/public_html/mytripboat/admin/edit_package.php(114): implode(',', NULL)
+#1 {main}
+  thrown in /home4/itriloke/public_html/mytripboat/admin/edit_package.php on line 114
+[23-Aug-2023 09:00:29 America/Boise] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($pieces) must be of type array, string given in /home4/itriloke/public_html/mytripboat/admin/edit_package.php:114
+Stack trace:
+#0 /home4/itriloke/public_html/mytripboat/admin/edit_package.php(114): implode(',', NULL)
+#1 {main}
+  thrown in /home4/itriloke/public_html/mytripboat/admin/edit_package.php on line 114
+[23-Aug-2023 09:05:03 America/Boise] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($pieces) must be of type array, string given in /home4/itriloke/public_html/mytripboat/admin/edit_package.php:114
+Stack trace:
+#0 /home4/itriloke/public_html/mytripboat/admin/edit_package.php(114): implode(',', NULL)
+#1 {main}
+  thrown in /home4/itriloke/public_html/mytripboat/admin/edit_package.php on line 114
+[23-Aug-2023 09:06:03 America/Boise] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($pieces) must be of type array, string given in /home4/itriloke/public_html/mytripboat/admin/edit_package.php:114
+Stack trace:
+#0 /home4/itriloke/public_html/mytripboat/admin/edit_package.php(114): implode(',', NULL)
+#1 {main}
+  thrown in /home4/itriloke/public_html/mytripboat/admin/edit_package.php on line 114
+[23-Aug-2023 09:06:28 America/Boise] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($pieces) must be of type array, string given in /home4/itriloke/public_html/mytripboat/admin/edit_package.php:114
+Stack trace:
+#0 /home4/itriloke/public_html/mytripboat/admin/edit_package.php(114): implode(',', NULL)
+#1 {main}
+  thrown in /home4/itriloke/public_html/mytripboat/admin/edit_package.php on line 114
+[23-Aug-2023 09:07:09 America/Boise] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($pieces) must be of type array, string given in /home4/itriloke/public_html/mytripboat/admin/edit_package.php:114
+Stack trace:
+#0 /home4/itriloke/public_html/mytripboat/admin/edit_package.php(114): implode(',', NULL)
+#1 {main}
+  thrown in /home4/itriloke/public_html/mytripboat/admin/edit_package.php on line 114
+[04-Sep-2023 06:31:09 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home4/itriloke/public_html/mytripboat/admin/show_package.php:112
+Stack trace:
+#0 /home4/itriloke/public_html/mytripboat/admin/show_package.php(112): mysqli_fetch_assoc(NULL)
+#1 {main}
+  thrown in /home4/itriloke/public_html/mytripboat/admin/show_package.php on line 112
+[04-Sep-2023 06:31:18 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home4/itriloke/public_html/mytripboat/admin/show_package.php:112
+Stack trace:
+#0 /home4/itriloke/public_html/mytripboat/admin/show_package.php(112): mysqli_fetch_assoc(NULL)
+#1 {main}
+  thrown in /home4/itriloke/public_html/mytripboat/admin/show_package.php on line 112
+[04-Sep-2023 06:31:33 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home4/itriloke/public_html/mytripboat/admin/show_package.php:112
+Stack trace:
+#0 /home4/itriloke/public_html/mytripboat/admin/show_package.php(112): mysqli_fetch_assoc(NULL)
+#1 {main}
+  thrown in /home4/itriloke/public_html/mytripboat/admin/show_package.php on line 112
+[04-Sep-2023 06:31:36 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home4/itriloke/public_html/mytripboat/admin/show_package.php:112
+Stack trace:
+#0 /home4/itriloke/public_html/mytripboat/admin/show_package.php(112): mysqli_fetch_assoc(NULL)
+#1 {main}
+  thrown in /home4/itriloke/public_html/mytripboat/admin/show_package.php on line 112
+[04-Sep-2023 06:31:50 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home4/itriloke/public_html/mytripboat/admin/show_package.php:112
+Stack trace:
+#0 /home4/itriloke/public_html/mytripboat/admin/show_package.php(112): mysqli_fetch_assoc(NULL)
+#1 {main}
+  thrown in /home4/itriloke/public_html/mytripboat/admin/show_package.php on line 112
+[04-Sep-2023 06:32:13 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home4/itriloke/public_html/mytripboat/admin/show_package.php:112
+Stack trace:
+#0 /home4/itriloke/public_html/mytripboat/admin/show_package.php(112): mysqli_fetch_assoc(NULL)
+#1 {main}
+  thrown in /home4/itriloke/public_html/mytripboat/admin/show_package.php on line 112
+[04-Sep-2023 06:32:36 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home4/itriloke/public_html/mytripboat/admin/show_package.php:112
+Stack trace:
+#0 /home4/itriloke/public_html/mytripboat/admin/show_package.php(112): mysqli_fetch_assoc(NULL)
+#1 {main}
+  thrown in /home4/itriloke/public_html/mytripboat/admin/show_package.php on line 112
+[04-Sep-2023 06:32:38 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home4/itriloke/public_html/mytripboat/admin/show_package.php:112
+Stack trace:
+#0 /home4/itriloke/public_html/mytripboat/admin/show_package.php(112): mysqli_fetch_assoc(NULL)
+#1 {main}
+  thrown in /home4/itriloke/public_html/mytripboat/admin/show_package.php on line 112
+[04-Sep-2023 06:36:28 America/Boise] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home4/itriloke/public_html/mytripboat/includes/classes/class_paging.php:417
+Stack trace:
+#0 /home4/itriloke/public_html/mytripboat/admin/show_package.php(38): pagingRecords->runQueryPaging('select * from t...', 1, '')
+#1 {main}
+  thrown in /home4/itriloke/public_html/mytripboat/includes/classes/class_paging.php on line 417
+[04-Sep-2023 06:36:30 America/Boise] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home4/itriloke/public_html/mytripboat/includes/classes/class_paging.php:417
+Stack trace:
+#0 /home4/itriloke/public_html/mytripboat/admin/show_package.php(38): pagingRecords->runQueryPaging('select * from t...', 1, '')
+#1 {main}
+  thrown in /home4/itriloke/public_html/mytripboat/includes/classes/class_paging.php on line 417
+[04-Sep-2023 06:37:25 America/Boise] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home4/itriloke/public_html/mytripboat/includes/classes/class_paging.php:417
+Stack trace:
+#0 /home4/itriloke/public_html/mytripboat/admin/show_package.php(38): pagingRecords->runQueryPaging('select * from t...', 1, '')
+#1 {main}
+  thrown in /home4/itriloke/public_html/mytripboat/includes/classes/class_paging.php on line 417
+[04-Sep-2023 07:07:17 America/Boise] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($pieces) must be of type array, string given in /home4/itriloke/public_html/mytripboat/admin/edit_package.php:131
+Stack trace:
+#0 /home4/itriloke/public_html/mytripboat/admin/edit_package.php(131): implode(',', NULL)
+#1 {main}
+  thrown in /home4/itriloke/public_html/mytripboat/admin/edit_package.php on line 131
+[05-Sep-2023 04:35:21 America/Boise] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($pieces) must be of type array, string given in /home4/itriloke/public_html/mytripboat/admin/edit_package.php:63
+Stack trace:
+#0 /home4/itriloke/public_html/mytripboat/admin/edit_package.php(63): implode(',', NULL)
+#1 {main}
+  thrown in /home4/itriloke/public_html/mytripboat/admin/edit_package.php on line 63
+[05-Sep-2023 06:11:35 America/Boise] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($pieces) must be of type array, string given in /home4/itriloke/public_html/mytripboat/admin/edit_package.php:131
+Stack trace:
+#0 /home4/itriloke/public_html/mytripboat/admin/edit_package.php(131): implode(',', NULL)
+#1 {main}
+  thrown in /home4/itriloke/public_html/mytripboat/admin/edit_package.php on line 131
+[05-Sep-2023 06:11:59 America/Boise] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($pieces) must be of type array, string given in /home4/itriloke/public_html/mytripboat/admin/edit_package.php:131
+Stack trace:
+#0 /home4/itriloke/public_html/mytripboat/admin/edit_package.php(131): implode(',', NULL)
+#1 {main}
+  thrown in /home4/itriloke/public_html/mytripboat/admin/edit_package.php on line 131
+[15-Sep-2023 16:08:21 America/Boise] PHP Parse error:  Unclosed '(' in /home4/itriloke/public_html/mytripboat/admin/show_members.php on line 127

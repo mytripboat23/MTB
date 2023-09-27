@@ -1,0 +1,12 @@
+[24-Aug-2023 09:08:43 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'show_members.php');   	if($memberA == 1) {  	?>         <li <?php if($curPage=='' at line 1 in /home4/itriloke/public_html/mytripboat/includes/classes/class_main_function.php:261
+Stack trace:
+#0 /home4/itriloke/public_html/mytripboat/includes/classes/class_main_function.php(261): mysqli_query(Object(mysqli), 'select * from t...')
+#1 /home4/itriloke/public_html/mytripboat/admin/ajax_script/search_package.php(5): main_function->selectData('travel_package', '*', 'pck_title like ...')
+#2 {main}
+  thrown in /home4/itriloke/public_html/mytripboat/includes/classes/class_main_function.php on line 261
+[24-Aug-2023 09:08:45 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'show_members.php');   	if($memberA == 1) {  	?>         <li <?php if($curPage=='' at line 1 in /home4/itriloke/public_html/mytripboat/includes/classes/class_main_function.php:261
+Stack trace:
+#0 /home4/itriloke/public_html/mytripboat/includes/classes/class_main_function.php(261): mysqli_query(Object(mysqli), 'select * from t...')
+#1 /home4/itriloke/public_html/mytripboat/admin/ajax_script/search_package.php(5): main_function->selectData('travel_package', '*', 'pck_title like ...')
+#2 {main}
+  thrown in /home4/itriloke/public_html/mytripboat/includes/classes/class_main_function.php on line 261
