@@ -1,0 +1,932 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+<title>My Trap Boat</title>
+<link rel="icon" type="image/x-icon" href="img/fav.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="dist/css/style.css" />
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="dist/css/webslidemenu.css"> 
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+<style>
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+</style>
+
+
+</head>
+
+<body>
+    
+<header>
+ <!-- ...header start.... -->
+ <div class="header_bg">
+    <div class="container">
+      <div class="holder_area j_b">
+        <div class="logo_area">
+          <a href="#"><img src="img/logo.png" alt=""></a>
+        </div>
+ 
+          <!-- ...search start... -->
+
+            <div class="search_area">
+              
+                  <div class="search_box">
+                    <form>
+                        <div class="form_group">
+                          <label>Wish your destination</label>
+                          <input class="text_input place" id="" type="text" placeholder="Where">
+                        </div>
+                        
+                        <div class="form_group">
+                          <label>Date</label>
+                          
+                          <input type="text" class="date" id="datepicker" placeholder="When">
+                        </div>
+
+                      
+                        <button type="submit">Find</button>
+                        
+                    </form>
+                  </div>
+              
+            </div>
+
+          <!-- ...search end... -->
+
+          <button class="add_section">Adds</button>
+
+          <nav id="navigation1" class="navigation-portrait menu_area">
+            <div class="nav-header">
+            <div class="nav-toggle"></div>
+            </div>
+            <div class="nav-menus-wrapper"><span class="nav-menus-wrapper-close-button"></span>
+            <ul class="nav-menu nav-menu_inner align-to-right">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Business</a></li>
+
+                <li class="drop_class"><a href="login.html">Login <span class="material-symbols-outlined">
+                  login
+                  </span></a></li>
+                <li class="drop_class">
+                  <a class="prof_drop_sec" href="#" >
+                    <p> Seema Roy</p>
+                    <img class="prof_img" src="img/person_img.png">
+
+                    <p class="rating">
+                      <span class="material-symbols-outlined">star</span>
+                      <span class="material-symbols-outlined">star</span>
+                      <span class="material-symbols-outlined">star</span>
+                      <span class="material-symbols-outlined">star</span>
+                      <span class="material-symbols-outlined">star</span>
+                    </p>
+
+                  </a>
+              </li>
+            </ul>
+
+            <div class="dropdown">
+              <button onclick="myFunction()" class="dropbtn"></button>
+              <div id="myDropdown" class="dropdown-content">
+                <a href="login.html">Login <span class="material-symbols-outlined">
+                  login
+                  </span>
+                </a>
+                <a href="#" class="prof_drop_sec">
+                  <p> Seema Roy</p>
+                  <img class="prof_img" src="img/person_img.png">
+                  
+                  <strong class="rating">
+                      <span class="material-symbols-outlined">star</span>
+                      <span class="material-symbols-outlined">star</span>
+                      <span class="material-symbols-outlined">star</span>
+                      <span class="material-symbols-outlined">star</span>
+                      <span class="material-symbols-outlined">star</span>
+                  </strong>
+                </a>
+              </div>
+            </div>
+
+
+            </div>
+          </nav>
+          
+      </div>
+    </div>
+ </div>
+</header>
+<!-- ...header end.... -->
+<main>
+
+
+<!-- ...body start... -->
+
+<div class="main_body">
+  
+
+    
+
+
+
+  <div class="container">
+    <div class="row">
+    <div class="let_body col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-9">
+
+      
+
+      <div class="lt_first_column">
+
+        <!-- ..........showcase area start............ -->
+
+
+        <div class="create_single_pack">
+          <h3 class="heading_bold top_none">
+            Join With Us and Add Tour
+          </h3>
+
+          <section class="create_pach_form_holder">
+            <form>
+              <div class="single_block_row">
+                <div class="block_8"><input class="text_input" id="" type="text" placeholder="Package Name"></div>
+                <div class="block_4"><input class="text_input" id="" type="text" placeholder="Destination"></div>
+              </div>
+              
+                
+                <div class="single_block_row">
+                  <div class="block_8">
+                    <label>Start</label>
+                    <div class="single_block_row">
+                      <div class="block_8">
+                        <input class="date_input" type="date" name="myTime" />
+                      </div>
+                      <div class="block_4">
+                        <input class="time_input" type="time" name="myTime" />
+                      </div>
+                    </div>
+                   
+                  </div>
+
+                  <div class="block_4 no_label"><input class="text_input" id="" type="text" placeholder="Start point"></div>
+
+                </div>
+                
+                
+                <div class="single_block_row">
+                  <div class="block_8">
+                    <label>End</label>
+                    <div class="block_8 single_block_row">
+                        <input class="date_input" type="date" name="myTime" />
+                    </div>
+                   
+                  </div>
+
+                </div>
+             
+              <div class="single_block_row">
+                <div class="block_4 plus_minus_block">
+                  <label>Seat available</label>
+                
+                  <div class="number">
+                    <span class="minus">-</span>
+                    <input type="text" value="1"/>
+                    <span class="plus">+</span>
+                  </div>
+
+                </div>
+                
+
+              </div>
+
+              <div class="block_8 single_block_row">
+                <div class="block_6">
+                  <input class="text_input" id="" type="text" placeholder="Price">
+                </div>
+
+                <div class="block_6">
+                  <input class="text_input" id="" type="text" placeholder="Discount price">
+                </div>
+
+              </div>
+
+              <div class="single_block_row">
+                <div class="block_8"><input class="text_input" id="" type="text" placeholder="Description"></div>
+              </div>
+
+              <div class="single_block_row block_8">
+                  <div class="multiselect_check ">
+                  <label>Include</label>
+                
+                  <div class="small_check">
+                  <span>Hotel<input type="checkbox" name="ParticipantSelection[]" value="demo1"></span>
+                  <span>Dinner<input type="checkbox" name="ParticipantSelection[]" value="demo2"></span>
+                  <span>Bus<input type="checkbox" name="ParticipantSelection[]" value="demo3"></span>
+                  </div>
+                  <input type="hidden" name="AnswerCondition" value="BrowserCheckAnswer">
+                </div>
+                
+              </div>
+
+              <div class="single_block_row block_8">
+                <div class="multiselect_check ">
+                <label>Not Include</label>
+              
+                <div class="small_check">
+                <span>Medicin<input type="checkbox" name="ParticipantSelection[]" value="demo1"></span>
+                <span>Tea<input type="checkbox" name="ParticipantSelection[]" value="demo2"></span>
+                </div>
+                <input type="hidden" name="AnswerCondition" value="BrowserCheckAnswer">
+              </div>
+              
+            </div>
+
+              <div class="single_block_row">
+                <div class="block_8"><input class="text_input" id="" type="text" placeholder="Terms &amp; Conditions"></div>
+              </div>
+
+              <div class="single_block_row">
+                <div class="block_8">
+                  <picture>
+                    <label class="input-group-text" for="up_img">Upload Image</label>
+                    <input type="file" class="" id="up_img" title=".jpg    .png   .svg" multiple="">
+                    <span>.jpg    .png   .svg</span>
+                  </picture>
+                </div>
+              </div>
+
+              <div class="single_block_row">
+                
+                  <div class="block_8 checkbox_area">
+                    <input class="form-check-input2" type="checkbox" id="check1" name="option1" value="">
+                      <label id="check1">T &amp; C  By Portal
+
+                        <div class="tc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae</div>
+                      </label>
+                  </div>
+                
+              </div>
+
+              <div class="single_block_row">
+                
+                <div class="block_4">
+                  <a type="button" data-bs-toggle="modal"  href="#share_box" class="create_btn share_btn">
+                    
+                    <span class="material-symbols-outlined">
+                      add
+                      </span>
+                      Create Package
+                  </a>
+                  
+
+                  <!-- Modal -->
+                    <div class="modal fade-scale pop_share"  id="share_box" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Share Box</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="pop_check_holder">
+                              <form>
+                                <ul >
+                                  <li>
+                                    <a href="#">
+                                      <input class="form_share_check" type="radio" name="share" id="option1" value="option1" >
+                                      <div><span class="material-symbols-outlined icon">share</span> <span  class="info_ico"><span class="material-symbols-outlined icon_for_info">error</span><strong class="info_pop">Public</strong></span></div>
+                                      <h4>Share to </h4>
+                                      <h3>All</h3>
+                                    </a>
+                                  </li>
+            
+                                  <li>
+                                    <a href="#">
+                                      <input class="form_share_check" type="radio" name="share" id="option2" value="option2">
+                                      <div><span class="material-symbols-outlined icon">share</span><span  class="info_ico"> <span class="material-symbols-outlined icon_for_info">error</span><strong class="info_pop">Private</strong></span></div>
+                                      <h4>Share to </h4>
+                                      <h3>Friends</h3>
+                                    </a>
+                                  </li>
+            
+                                  <li>
+                                    <a type="button" data-bs-toggle="modal"  href="#custom_box">
+                                      
+                                      <input class="form_share_check" type="radio" name="share" id="option3" value="option3">
+                                      <span class="material-symbols-outlined icon">settings_suggest</span>
+                                      <h4>Create</h4>
+                                      <h3 >Custom</h3>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </form>
+                            </div>
+                              <div class="copy_code">
+                                <p>sitametquam/semper/ fringilla-ex-quis/ornare  </p><button href="#"><span class="material-symbols-outlined">content_copy</span> Copy</button>
+                              </div>
+                            </div>  
+                          <div class="modal-footer">
+                            <button type="button" class="create_btn" ><span>+</span>Submit</button>
+                            <button type="button" class="create_btn" ><span>+</span>Need business</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- ............model end........... -->
+
+
+
+                   
+
+                    <!-- Modal 2nd start -->
+                    <div class="modal fade-scale for_business"  id="custom_box" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Business Form</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <h3>Choose Price for Promotion:</h3>
+                            <div class="business_drop">
+                              <span>INR</span>
+                              <select class="pop_form_business" aria-label="">
+                                <option selected="">1000/-</option>
+                                <option value="1">2000/-</option>
+                                <option value="2">3000/-</option>
+                                <option value="3">4000/-</option>
+                              </select>
+                            </div>
+
+                            <div class="package_detail">
+                              <div class="yello_business_box">
+                                <h6>Duration:</h6>
+                                <h2><strong>24</strong> Days</h2>
+                              </div>
+          
+                              <div class="gray_business_box">
+                                <h6>Reach Upto:</h6>
+                                <h2><strong>10,000</strong> People</h2>
+                              </div>
+                            </div>
+
+
+                          </div>
+                              
+                          <div class="modal-footer">
+                            <button type="button" class="create_btn" ><span>+</span>Create package</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- ............model 2nd end........... -->
+                        
+                </div>
+              </div>
+
+              
+
+              
+            </form>
+          </section>
+
+        </div>
+        
+      </div>
+
+      <div class="lt_second_column">
+
+        <!-- ................Tor operator.............. -->
+        <section class="operator_personal top_none">
+          <div class="operator_personal_img"><img src="img/person_img.png" alt=""></div>
+          <h3><a href="#">Ananda Bhowwmik</a></h3>
+          <h4>Tour Operator</h4>
+          <a class="mail" href="#">Mail</a>
+
+       </section>
+       <!-- ................list.............. -->
+       <section class="personal_list">
+        <ul>
+          <li>
+            <img src="img/star_ico.png"> Rating: <span>4.5</span>
+          </li>
+
+          <li>
+            <img src="img/complete_ico.png"> Complete: <span> 25 Tours</span>
+          </li>
+
+          <li>
+            <img src="img/recomend_ico.png"> Recomended: <span> 50</span>
+          </li>
+
+          <li>
+            <img src="img/follow_ico.png"> Follow: <span> 1000</span>
+          </li>
+
+          <li>
+            <img src="img/running_ico.png"> Ongoing: <span> 3</span>
+          </li>
+        </ul>
+     </section>
+      
+
+
+      </div>
+
+      <div class="clear"></div>
+
+
+      <div class="related_item">
+        <h3>Related Tours</h3>
+        <ul>
+          <li>
+            <a href="listing.html">
+              <img class="item_img" src="img/tour_img.jpg">
+              <div class="person_img"><img src="img/person_img.png" alt="..." ></div>
+              <div class="item_content">
+                
+                  <div class="rating">
+                    <span class="material-symbols-outlined">star</span>
+                    <span class="material-symbols-outlined">star</span>
+                    <span class="material-symbols-outlined">star</span>
+                    <span class="material-symbols-outlined">star</span>
+                    <span class="material-symbols-outlined">star</span>
+                 </div>
+                 <h4>Darjeeling Tour</h4>
+                 <p>Share your travel experience and create your travel story....</p>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="listing.html">
+              <img class="item_img" src="img/tour_img.jpg">
+              <div class="person_img"><img src="img/person_img.png" alt="..." ></div>
+              <div class="item_content">
+                
+                  <div class="rating">
+                    <span class="material-symbols-outlined">star</span>
+                    <span class="material-symbols-outlined">star</span>
+                    <span class="material-symbols-outlined">star</span>
+                    <span class="material-symbols-outlined">star</span>
+                    <span class="material-symbols-outlined">star</span>
+                 </div>
+                 <h4>Darjeeling Tour</h4>
+                 <p>Share your travel experience and create your travel story....</p>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="listing.html">
+              <img class="item_img" src="img/tour_img.jpg">
+              <div class="person_img"><img src="img/person_img.png" alt="..." ></div>
+              <div class="item_content">
+                
+                  <div class="rating">
+                    <span class="material-symbols-outlined">star</span>
+                    <span class="material-symbols-outlined">star</span>
+                    <span class="material-symbols-outlined">star</span>
+                    <span class="material-symbols-outlined">star</span>
+                    <span class="material-symbols-outlined">star</span>
+                 </div>
+                 <h4>Darjeeling Tour</h4>
+                 <p>Share your travel experience and create your travel story....</p>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="listing.html">
+              <img class="item_img" src="img/tour_img.jpg">
+              <div class="person_img"><img src="img/person_img.png" alt="..." ></div>
+              <div class="item_content">
+                
+                  <div class="rating">
+                    <span class="material-symbols-outlined">star</span>
+                    <span class="material-symbols-outlined">star</span>
+                    <span class="material-symbols-outlined">star</span>
+                    <span class="material-symbols-outlined">star</span>
+                    <span class="material-symbols-outlined">star</span>
+                 </div>
+                 <h4>Darjeeling Tour</h4>
+                 <p>Share your travel experience and create your travel story....</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+
+    </div>
+    <aside class="right_body col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-3">
+      
+      <!-- .............package start........ -->
+      <div class="top_package_rt">
+        <h3 class="rt_heading"><span>Top Packages</span></h3>
+        <ul>
+          <li>
+            <a href="single_package.html">
+              <h4><span>5 Days</span> - <span>4 Nights</span></h4>
+              <h3>Darjeeling  Tour</h3>
+            </a>
+            
+          </li>
+
+          <li>
+            <a href="single_package.html">
+              <h4><span>5 Days</span> - <span>4 Nights</span></h4>
+              <h3>Darjeeling  Tour</h3>
+            </a>
+          </li>
+
+          <li>
+            <a href="single_package.html">
+              <h4><span>5 Days</span> - <span>4 Nights</span></h4>
+              <h3>Darjeeling  Tour</h3>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+      <!-- .......package end.... -->
+
+      <!-- .......operator start.......... -->
+
+      <div class="top_operator_rt">
+        <h3 class="rt_heading"><span>Top Operators</span></h3>
+        <ul>
+          <li>
+            <a href="#" class="operator_img"><img src="img/person_img.png"></a>
+
+            <div class="operator_content">
+              <h3><a href="travel_diary.html"> Cholo Jai</a></h3>
+              <h4>Organised: <span>20</span> Tours</h4>
+              
+              <!-- .......Bar start.......... -->
+
+              <div class="bar-container">
+                <div class="bar-light-grey bar-round-large">
+                  <div class="bar-container bar-red bar-round-large" style="width:25%">25%</div>
+                </div>
+              </div>
+
+              <!-- .......Bar end.......... -->
+
+            </div>
+            
+          </li>
+
+          <li>
+            <a href="#" class="operator_img"><img src="img/person_img.png"></a>
+
+            <div class="operator_content">
+              <h3><a href="travel_diary.html"> Cholo Jai</a></h3>
+              <h4>Organised: <span>20</span> Tours</h4>
+              <!-- .......Bar start.......... -->
+
+              <div class="bar-container">
+                <div class="bar-light-grey bar-round-large">
+                  <div class="bar-container bar-red bar-round-large" style="width:55%">55%</div>
+                </div>
+              </div>
+
+              <!-- .......Bar end.......... -->
+            </div>
+            
+          </li>
+
+          <li>
+            <a href="#" class="operator_img"><img src="img/person_img.png"></a>
+
+            <div class="operator_content">
+              <h3><a href="travel_diary.html"> Cholo Jai</a></h3>
+              <h4>Organised: <span>20</span> Tours</h4>
+              <!-- .......Bar start.......... -->
+
+              <div class="bar-container">
+                <div class="bar-light-grey bar-round-large">
+                  <div class="bar-container bar-red bar-round-large" style="width:95%">95%</div>
+                </div>
+              </div>
+
+              <!-- .......Bar end.......... -->
+            </div>
+            
+          </li>
+
+          
+
+        </ul>
+      </div>
+
+      <!-- ....operator end.... -->
+
+      <!-- ....top tour start.... -->
+
+      <div class="top_tour_rt">
+        <h3 class="rt_heading"><span>Top Tour </span></h3>
+        <ul>
+          <li>
+            <div class="top_tour_img"><img src="img/tour_img.jpg"></div>
+            <a href="listing.html" class="top_tour_txt">
+              <h3>Kashmir</h3>
+              <strong>12</strong>
+              <p>Seats Remaining</p>
+            </a>
+            
+          </li>
+
+          <li>
+            <div class="top_tour_img"><img src="img/tour_img.jpg"></div>
+            <a href="listing.html" class="top_tour_txt">
+              <h3>Kashmir</h3>
+              <strong>12</strong>
+              <p>Seats Remaining</p>
+            </a>
+            
+          </li>
+
+          <li>
+            <div class="top_tour_img"><img src="img/tour_img.jpg"></div>
+            <a href="listing.html" class="top_tour_txt">
+              <h3>Kashmir</h3>
+              <strong>12</strong>
+              <p>Seats Remaining</p>
+            </a>
+            
+          </li>
+
+          <li>
+            <div class="top_tour_img"><img src="img/tour_img.jpg"></div>
+            <a href="listing.html" class="top_tour_txt">
+              <h3>Kashmir</h3>
+              <strong>12</strong>
+              <p>Seats Remaining</p>
+            </a>
+            
+          </li>
+        </ul>
+      </div>
+
+      <!-- ....top tour end.... -->
+
+      <!-- ...........add 1 start.......... -->
+
+      <div class="ad_1">
+        <h3>Shimultala Tour</h3>
+        <div class="add_txt_holder">
+          <div class="add_img_border"><a href="single_package.html"><img src="img/tour_img.jpg" alt=""></a></div>
+          <div>
+            <span><strong>1</strong>Days - <strong>2</strong> Nights</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+
+          </div>
+        </div>
+        <a href="single_package.html" class="add_post_opert"><img src="img/person_img.png"></a>
+
+      </div>
+
+      <!-- ......add 1 end.......... -->
+
+      <!-- .............add 2 start............ -->
+
+      <div class="ad_2">
+        <div class="add_img_border"><a href="single_package.html"><img src="img/tour_img.jpg"></a></div>
+        
+        <div class="add_txt_holder">
+          <h3>Shimultala Tour</h3>
+          <div>
+            <span><strong>1</strong>Days - <strong>2</strong>Nights</span>
+            <ul class="oparator_rating">
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+              <li>4</li>
+              <li class="low_rate">5</li>
+            </ul>
+
+          </div>
+        </div>
+        <img alt="" class="add_post_opert">
+
+      </div>
+
+      <!-- .............add 2 end............ -->
+
+      <!-- .............suggestion start............ -->
+
+      <div class="top_suggestion_rt">
+        <h3 class="rt_heading"><span> suggestion </span></h3>
+        <ul>
+          <li>
+            <a class="top_suggestion_img"><img src="img/tour_img.jpg"></a>
+            <div class="top_suggestion_txt">
+              <h3><a href="single_package.html">Vishakhapattanam</a></h3>
+              
+              <p><span>2</span>night -<span>1</span> Days</p>
+              
+                <ul class="suggestion_rating">
+                  <li>1</li>
+                  <li>2</li>
+                  <li>3</li>
+                  <li>4</li>
+                  <li class="low_rate">5</li>
+                </ul>
+              
+            </div>
+            
+          </li>
+
+          
+
+        </ul>
+      </div>
+      <!-- ................suggestion end............ -->
+
+    </aside>
+    </div>
+  </div>
+  
+</div>
+
+
+
+
+</main> 
+
+
+<footer  class="footer_bottom">
+  <div class="container">
+    <ul class="language_section">
+      <li>English (UK)</li>
+    </ul>
+
+    <ul class="footer_menu">
+        <li><a href="registration.html">Sign Up</a></li>
+        <li><a href="login.html">Log In</a></li>
+        <li><a href="#">Places</a></li>
+        <li><a href="#">Marketplace</a></li>
+        <li><a href="#">Portal</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Bulletin</a></li>
+        <li><a href="#">Local</a></li>
+        <li><a href="#">Fundraisers</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="faq.html">FAQ's</a></li>
+        <li><a href="#">Voting Information Centre</a></li>
+        <li><a href="#">Groups</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Create ad</a></li>
+        <li><a href="#">Create Page</a></li>
+        <li><a href="#">Developers</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Cookies</a></li>
+        <li><a href="#">AdChoices</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Contact uploading and non-usersSettings</a></li>
+
+
+
+    </ul>
+    <p>Copyright My Trap Boat 2023</p>
+  </div>
+  
+  
+  
+   </footer>
+
+
+
+
+  
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="dist/js/webslidemenu.js.download"></script> 
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+
+<script src="h//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+
+
+<script>
+  /* When the user clicks on the button, 
+  toggle between hiding and showing the dropdown content */
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+
+
+
+
+  var validateForm = function() {
+  var checks = $('input[type="checkbox"]:checked').map(function() {
+    return $(this).val();
+  }).get()
+  console.log(checks);
+  return false;
+}
+
+
+
+
+  $( function() {
+    $( "#datepicker" ).datepicker();
+  } );
+
+
+
+  $(document).ready(function(){
+	
+	$(".add_section").click(function() {
+		$(".right_body").toggleClass('show_add');	
+	});
+
+
+  
+
+  $(document).ready(function(){
+    
+    $(".pack_jist").click(function() {
+      $(".pack_jist-field").toggleClass('show-in-mobile');	
+    });
+  });
+
+});
+
+
+  // function myFunction() {
+  //   var dots = document.getElementById("dots");
+  //   var moreText = document.getElementById("more");
+  //   var btnText = document.getElementById("myBtn");
+  
+  //   if (dots.style.display === "none") {
+  //     dots.style.display = "inline";
+  //     btnText.innerHTML = "Read more"; 
+  //     moreText.style.display = "none";
+  //   } else {
+  //     dots.style.display = "none";
+  //     btnText.innerHTML = "Read less"; 
+  //     moreText.style.display = "inline";
+  //   }
+  // }
+
+  $(document).ready(function() {
+			$('.minus').click(function () {
+				var $input = $(this).parent().find('input');
+				var count = parseInt($input.val()) - 1;
+				count = count < 1 ? 1 : count;
+				$input.val(count);
+				$input.change();
+				return false;
+			});
+			$('.plus').click(function () {
+				var $input = $(this).parent().find('input');
+				$input.val(parseInt($input.val()) + 1);
+				$input.change();
+				return false;
+			});
+		});
+
+  </script>  
+
+
+
+</body>
+</html>

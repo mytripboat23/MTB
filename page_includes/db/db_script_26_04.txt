@@ -1,0 +1,1 @@
+ALTER TABLE `travel_user` ADD `user_id_no` VARCHAR(255) NOT NULL AFTER `user_banner`, ADD `user_id_photo` VARCHAR(255) NOT NULL AFTER `user_id_no`, ADD `user_self_photo` VARCHAR(255) NOT NULL AFTER `user_id_photo`, ADD `user_profile_vf` ENUM('n','y') NOT NULL AFTER `user_self_photo`;

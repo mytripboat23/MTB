@@ -1,0 +1,1 @@
+<?php define('VARkey','DSHELg4B9wCwRzZBQ9pxBmqZxomahSEVt4jXf4fSAZ2d'); ?>
